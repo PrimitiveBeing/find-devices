@@ -1,2 +1,3 @@
-# find-devices
-bash script to find ip devices in local network
+#find devices in local network
+bash script to find  devices in local network
+script uses ping tool to simple sweep devices in your local network
