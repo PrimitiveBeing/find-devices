@@ -10,7 +10,5 @@ for (( c=1; c<=225; c++ ))
     if  ping -b -c 1 -s 1 192.168.$cut.$c &>/dev/null
     then
       echo "DEVICE FOUND 192.168.$cut.$c"
-    else
-      echo "NOT FOUND $c"
     fi
   done
